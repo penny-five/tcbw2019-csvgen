@@ -1,0 +1,21 @@
+{
+  "name": "tcbw2019-untappd-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes untappd ratings for beers available at TCBW2019 and produces a .csv file",
+  "license": "Apache-2.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon -r esm src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "csv-stringify": "5.3.0",
+    "esm": "3.2.22",
+    "lodash": "4.17.11",
+    "x-ray": "2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
