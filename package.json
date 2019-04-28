@@ -1,5 +1,5 @@
 {
-  "name": "tcbw2019-untappd-scraper",
+  "name": "tcbw2019-untappd-scvgen",
   "version": "1.0.0",
   "description": "Scrapes untappd ratings for beers available at TCBW2019 and produces a .csv file",
   "license": "Apache-2.0",
@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "1.18.4"
-  }
+  },
+  "keywords": []
 }
