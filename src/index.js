@@ -92,4 +92,6 @@ const start = async () => {
   console.log(`Output written to ${outputFilename}`);
 };
 
-if (false) start();
+const runScript = false; // change to "true" to enable the script
+
+if (runScript) start();
